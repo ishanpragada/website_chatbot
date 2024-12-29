@@ -2,7 +2,7 @@
 
 import { useChat } from 'ai/react'
 import { useState, useRef, useEffect } from 'react'
-import { Bot, Send, User } from 'lucide-react'
+import {  Send } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -77,7 +77,7 @@ export default function Chat() {
               <Avatar className="h-8 w-8">
                 <AvatarImage src="/pfp.jpg" />
               </Avatar>
-              hey, i'm ishan
+              hey, i&apos;m ishan
             </DialogTitle>
             <DialogDescription asChild>
               <div className="text-left space-y-2">
@@ -103,7 +103,7 @@ export default function Chat() {
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
-                OpenAI's website
+                OpenAI&apos;s website
               </a>.
             </DialogDescription>
           </DialogHeader>
