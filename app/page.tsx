@@ -128,15 +128,9 @@ export default function Chat() {
       <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-background to-muted p-4">
         <Card className="w-full max-w-2xl h-[800px] grid grid-rows-[auto_1fr_auto]">
           <CardHeader className="border-b flex flex-row items-center justify-between">
-            <a
-              href="https://ishankr.com"
-              className="absolute left-4 top-4 text-primary text-sm font-medium underline"
-            >
-              Back
-            </a>
             <CardTitle className="flex items-center gap-2">
               <Avatar className="h-8 w-8">
-                <AvatarImage src="/pfp.jpg" />
+                <a href="https://ishankr.com"><AvatarImage src="/pfp.jpg" /></a>
               </Avatar>
               ishan buyyanapragada
             </CardTitle>
