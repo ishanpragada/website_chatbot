@@ -156,6 +156,7 @@ export default function Chat() {
                       {message.role === 'user' ? (
                         <>
                           <AvatarFallback>U</AvatarFallback>
+                          <AvatarImage src="/default_pfp.svg" />
                         </>
                       ) : (
                         <>
