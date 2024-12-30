@@ -126,7 +126,7 @@ export default function Chat() {
       </Dialog>
 
       <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-background to-muted p-4">
-        <Card className="w-full max-w-2xl h-[800px] grid grid-rows-[auto_1fr_auto]">
+        <Card className="w-full max-w-2xl h-[600px] grid grid-rows-[auto_1fr_auto]">
           <CardHeader className="border-b flex flex-row items-center justify-between">
             <CardTitle className="flex items-center gap-2">
               <Avatar className="h-10 w-10">
