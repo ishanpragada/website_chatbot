@@ -128,11 +128,14 @@ export default function Chat() {
       <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-background to-muted p-4">
         <Card className="w-full max-w-2xl h-[800px] grid grid-rows-[auto_1fr_auto]">
           <CardHeader className="border-b flex flex-row items-center justify-between">
-            <CardTitle className="flex items-center gap-2">
+            <CardTitle className="flex items-end gap-2">
               <Avatar className="h-8 w-8">
                 <a href="https://ishankr.com"><AvatarImage src="/pfp.jpg" /></a>
               </Avatar>
+              <div className='block'>
+              <p className="text-xs">an AI version of </p>
               ishan buyyanapragada
+              </div>
             </CardTitle>
             <ThemeToggle />
           </CardHeader>
@@ -153,7 +156,6 @@ export default function Chat() {
                       {message.role === 'user' ? (
                         <>
                           <AvatarFallback>U</AvatarFallback>
-                          <AvatarImage src="/placeholder.svg?height=32&width=32" />
                         </>
                       ) : (
                         <>
