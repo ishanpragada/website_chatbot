@@ -140,8 +140,8 @@ export default function Chat() {
             <ThemeToggle />
           </CardHeader>
           
-          <CardContent className="p-0">
-            <ScrollArea ref={scrollAreaRef} className="h-full p-4">
+          <CardContent className="p-0 grow overflow-hidden">
+            <ScrollArea ref={scrollAreaRef} className="h-full p-4 overflow-y-auto">
               {messages.map((message, index) => (
                 <div
                   key={index}
